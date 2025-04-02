@@ -8,7 +8,8 @@ const Background = () => {
       width: '100%',
       height: '100vh',
       backgroundSize: 161,
-      opacity:0.04
+      opacity:0.04,
+      position:'absolute'
     }}/>
   )
 }
