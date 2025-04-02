@@ -1,4 +1,4 @@
-import backgroundimage from "../../../../public/background.png";
+import backgroundimage from "../../../public/background.png";
 
 const Background = () => {
   return (

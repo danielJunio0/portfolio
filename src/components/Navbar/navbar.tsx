@@ -1,24 +1,47 @@
 
+import HomeImg from "../../../public/icons/home.svg";
+import PathImg from "../../../public/icons/path.svg";
+import ToolImg from "../../../public/icons/tool.svg";
+import EditImg from "../../../public/icons/edit.svg";
+import BagImg from "../../../public/icons/bag.svg";
+import LetterImg from "../../../public/icons/letter.svg";
+import NavItem, { INavItem } from "../NavItem";
+// import { usePathname } from "next/navigation";
+// import { useState } from "react";
+
 const NavBar = () => {
+
+  // const pathname = usePathname();
+
+  // const [openMenu, setOpenMenu] = useState<boolean>(false);
+  const items: INavItem[] = [
+    {
+      url: "/",
+      icon: HomeImg
+    },
+    {
+      url: "/projects",
+      icon: PathImg
+    },
+    {
+      url: "/tools",
+      icon: ToolImg
+    },  {
+      url: "/experience",
+      icon: BagImg
+    },
+    {
+      url: "/contacts",
+      icon: LetterImg
+    },
+  ]
+
   return (
-    <div className="absolute w-auto">
-      <nav className="bg-[#272829] rounded-lg flex-row flex pt-2 pr-4 pb-2 ">
-        <div className="h-8 w-8 bg-[#914bf1] rounded-sm ml-4">
-
-        </div>
-        <div className="h-8 w-8 bg-[#914bf1] rounded-sm ml-4">
-
-        </div>
-        <div className="h-8 w-8 bg-[#914bf1] rounded-sm ml-4">
-
-        </div>
-        <div className="h-8 w-8 bg-[#914bf1] rounded-sm ml-4">
-
-        </div>
-        <div className="h-8 w-8 bg-[#914bf1] rounded-sm ml-4">
-
-        </div>
-
+    <div className="absolute top-8 left-1/2 -translate-x-1/2">
+      <nav className="bg-[#272829] rounded-xl flex-row flex pt-2 pr-4 pb-2 navbar">
+        {items.map((item, index) => (
+          <NavItem key={index} icon={item.icon} url={item.url} />
+        ))}
       </nav>
     </div>
   )
