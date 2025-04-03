@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-import { JSX } from "react";
 import Image from "next/image";
 
 export interface INavItem {

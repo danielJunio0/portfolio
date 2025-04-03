@@ -4,7 +4,6 @@
 import HomeImg from "../../../public/icons/home.svg";
 import PathImg from "../../../public/icons/path.svg";
 import ToolImg from "../../../public/icons/tool.svg";
-import EditImg from "../../../public/icons/edit.svg";
 import BagImg from "../../../public/icons/bag.svg";
 import LetterImg from "../../../public/icons/letter.svg";
 import NavItem, { INavItem } from "../NavItem";
