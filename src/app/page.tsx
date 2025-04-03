@@ -3,7 +3,7 @@ import Home from "./home/page";
 
 export default function Index() {
   return (
-    <main>      
+    <main className="px-6">      
       <Home/>
       <Experience/>
     </main>

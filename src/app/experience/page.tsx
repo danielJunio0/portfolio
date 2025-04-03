@@ -2,12 +2,12 @@ export default function Experience() {
 
   return (
     <section >
-      <h1 className="text-7xl mb-4">Transformando suas idéias em {" "}
+      <h1 className="">Transformando suas idéias em {" "}
         <span className="text-[#914bf1]">
           Realidade
         </span>
       </h1>
-      <div className="flex flex-row gap-16">
+      <div className="">
         <div >
           <p className="font-bold text-5xl"> +6</p>
           <p className="uppercase">Anos de</p>

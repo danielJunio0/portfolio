@@ -16,7 +16,7 @@ export default function RootLayout({
         <Background />
         <div className="flex justify-center">
           <NavBar />
-          <div className="flex justify-center pt-[160px] gap-20 max-w-[1140px]">
+          <div className="flex flex-col items-center justify-center pt-36 lg:flex-row max-w-[1140px] gap-8">
             <ProfileContainer />
             {children}
           </div>
