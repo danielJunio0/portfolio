@@ -1,9 +1,11 @@
-import Teste from "./teste/teste";
+import Experience from "./experience/page";
+import Home from "./home/page";
 
-export default function Home() {
+export default function Index() {
   return (
     <main>      
-      <Teste/>
+      <Home/>
+      <Experience/>
     </main>
   )
 }
