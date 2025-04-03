@@ -37,8 +37,8 @@ const NavBar = () => {
     },
   ]
 
-  return (
-    <div className="absolute top-8 left-1/2 -translate-x-1/2">
+  return ( 
+    <div className="fixed lg:absolute top-5 lg:top-8 left-1/2 -translate-x-1/2 z-10">
       <nav className="bg-[#272829] rounded-xl flex-row flex pt-2 pr-4 pb-2 navbar">
         {items.map((item, index) => (
           <NavItem key={index} icon={item.icon} url={item.url} isActive={pathname == item.url} />

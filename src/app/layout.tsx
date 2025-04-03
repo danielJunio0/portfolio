@@ -13,12 +13,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Background />
-        <div className="flex justify-center">
+        <div className="w-auto min-h-screen items-center flex justify-start relative pt-40">
+          <Background />
           <NavBar />
-          <div className="flex flex-col items-center justify-center pt-36 lg:flex-row max-w-[1140px] gap-8">
-            <ProfileContainer />
-            {children}
+          <div className="items-center flex flex-row gap-2 h-min justify-center w-full">
+            <div className="items-start gap-20  max-w-[1140px] flex flex-col lg:flex-row">
+              <ProfileContainer />
+              {children}
+            </div>
           </div>
         </div>
       </body>
