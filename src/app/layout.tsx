@@ -11,9 +11,9 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>
-        <div className="w-auto min-h-screen items-center flex justify-start relative pt-40">
+        <div className="min-h-screen items-center flex justify-start relative pt-40">
           <Background />
           <NavBar />
           <div className="items-center flex flex-row gap-2 h-min justify-center w-full">

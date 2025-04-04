@@ -1,8 +1,8 @@
 export default function Experience() {
 
   return (
-    <section >
-      <h1 className="text-7xl">Transformando suas idéias em {" "}
+    <section className="px-[16px]">
+      <h1 className="text-[48px] font-bold">Transformando suas idéias em {" "}
         <span className="text-[#914bf1]">
           Realidade
         </span>
