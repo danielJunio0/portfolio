@@ -1,5 +1,3 @@
-"use server"
-
 import Image from "next/image";
 import ProfilePic from "../../../public/profilepic.jpg";
 import Button from "../button";
@@ -7,11 +5,6 @@ import LinkedinImg from "../../../public/icons/linkedin.svg"
 import GitHubImg from "../../../public/icons/github.svg"
 import MailImg from "../../../public/icons/mail.svg"
 const ProfileContainer = () => {
-
-  const openLinkedin = () => {
-    window.open('https://www.linkedin.com/in/danielbarbosa0/', '_blank');
-  };
-
   return (
     // <div className="bg-[#fff0] opacity-[1] relative w-full items-center flex flex-none flex-col flex-nowrap gap-[40px] h-min justify-center overflow-hidden p-0 z-1">
     //   <div className="contents">
