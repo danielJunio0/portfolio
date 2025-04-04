@@ -1,5 +1,5 @@
 /* From Uiverse.io by BHARGAVPATEL1244 */ 
-button {
+.button {
  outline: none;
  cursor: pointer;
  border: none;
@@ -18,18 +18,18 @@ button {
  color: ghostwhite;
 }
 
-button span {
+.button span {
  position: relative;
  z-index: 10;
  transition: color 0.4s;
 }
 
-button:hover span {
+.button:hover span {
  color: white;
 }
 
-button::before,
-button::after {
+.button::before,
+.button::after {
  position: absolute;
  top: 0;
  left: 0;
@@ -38,7 +38,7 @@ button::after {
  z-index: 0;
 }
 
-button::before {
+.button::before {
  content: "";
  background: #914bf1;
  width: 120%;
@@ -47,6 +47,6 @@ button::before {
  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
-button:hover::before {
+.button:hover::before {
  transform: translate3d(100%, 0, 0);
 }
