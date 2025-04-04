@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="mb-8">
+    <div >
       <h1 className="text-7xl">Sobre mim</h1>
       <p className="mb-4 mt-8">
         Olá, sou Daniel, desenvolvedor desde 2019, com experiência em Full Stack, utilizando Node.js e .NET no backend, mas com foco principal no frontend, especialmente em React Native.
