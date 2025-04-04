@@ -1,6 +1,6 @@
-import styles from './styles.css';
+import styles from './styles.module.css';
 
-export default function Button({ children }) {
+export default function Button({ children }: any) {
   return (
     <button className={styles.button}>
       <span>{children}</span>
