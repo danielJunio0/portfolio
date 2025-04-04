@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <main className="px-6">      
       <Home/>
-      {/* <Experience/>     */}
+      <Experience/>    
     </main>
   )
 }
