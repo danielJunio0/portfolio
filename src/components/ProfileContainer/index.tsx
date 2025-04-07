@@ -44,7 +44,7 @@ const ProfileContainer = () => {
           <a target="_blank" href="https://github.com/danielJunio0" className="cursor-pointer p-[4px] hover:bg-[#5746e9] rounded-[6px]"><Image className="text-white fill-white" width={20} alt="icon" src={GitHubImg} /></a>
           <a target="_blank" href="mailto:daniel_junio_@hotmail.com" className="cursor-pointer p-[4px] hover:bg-[#5746e9] rounded-[6px]"><Image className="text-white fill-white" width={20} alt="icon" src={MailImg} /></a>
         </div>
-        <div className="mt-[46px]">
+        <div className="mt-[24px]">
           <Button >
             Entre em contato
           </Button>

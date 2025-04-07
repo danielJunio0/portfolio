@@ -3,7 +3,7 @@ export default function Experience() {
   return (
     <section>
       <h1 className="text-[48px] font-bold">Transformando suas idéias em {" "}
-        <span className="text-[#5746e9]">
+        <span className="text-[#8e81ff]">
           Realidade
         </span>
       </h1>
