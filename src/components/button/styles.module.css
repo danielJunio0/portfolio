@@ -14,7 +14,7 @@
  font-size: 17px;
  border-radius: 8px;
  overflow: hidden;
- background: #6130a5;
+ background: #8e81ff;
  color: ghostwhite;
 }
 
@@ -40,7 +40,7 @@
 
 .button::before {
  content: "";
- background: #914bf1;
+ background: #5746e9;
  width: 120%;
  left: -10%;
  transform: skew(30deg);

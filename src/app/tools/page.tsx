@@ -3,7 +3,7 @@ export default function Tools() {
     <section>
 
       <h1 className="text-7xl mb-4">Ferramentas que domino para grandes {" "}
-        <span className="text-[#914bf1]">
+        <span className="text-[#5746e9]">
           resultados
         </span>
       </h1>
