@@ -32,7 +32,7 @@ const ProfileContainer = () => {
       <div className="bg-[#272829] rounded-[16px] w-full flex flex-col px-[20px] py-[30px] items-center gap-[16px]">
         <div className="rounded-2xl h-[280px]  w-[240px] overflow-hidden">
 
-          <Image src={ProfilePic} objectFit="cover" alt="Profile Pic" className="w-full h-full object-cover" />
+          <Image src={ProfilePic} objectFit="cover" alt="Profile Pic" className="w-full object-cover" />
         </div>
         <div className="text-center">
           <p className="font-bold text-[28px] text-center gap-2">Daniel Barbosa</p>
