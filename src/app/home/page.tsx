@@ -1,6 +1,3 @@
-import { Metadata } from "next";
-
-
 const Home = () => {
   return (
     <div >
