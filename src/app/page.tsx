@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: 'Sobre mim - Sobre Daniel Barbosa',
   description: 'Saiba um resumo sobre o histórico profissional do desenvolvedor de software Daniel Barbosa de Ribeirão Preto-SP/Brasil',
   openGraph: {
-    title: 'Desenvolvedor de software Daniel Barbosa',
-    description: 'Daniel tem mais de 6 anos de experiência em desenvolvimento web e mobile.',
+    title: 'Daniel Barbosa | Desenvolvedor full stack',
+    description: 'Veja o portfolio de Daniel Barbosa, um desenvolvedor full stack especializado em desenvolvimento React.',
     images: ['https://danielbarbosa.com.br/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofilepic.3da4e9d8.jpg&w=1200&q=75']
   }
 }
