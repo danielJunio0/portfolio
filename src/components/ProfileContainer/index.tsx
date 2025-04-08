@@ -29,7 +29,7 @@ const ProfileContainer = () => {
     //   </div>
     // </div>
     <div className=" w-full px-[20px] lg:w-fit">
-      <div className="bg-[#272829] rounded-[16px] w-full flex flex-col px-[20px] py-[30px] items-center gap-[16px]">
+      <div className="bg-[#272829] rounded-[16px] w-full flex flex-col px-[30px] py-[30px] items-center gap-[16px]">
         <div className="rounded-2xl h-[280px]  w-[240px] overflow-hidden">
 
           <Image src={ProfilePic} objectFit="cover" alt="Profile Pic" className="w-full object-cover" />
