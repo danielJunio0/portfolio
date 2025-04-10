@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Experience from "./experience/page";
 import Home from "./home/page";
+import Projects from "./projects/page";
 
 export const metadata: Metadata = {
   title: 'Sobre mim - Sobre Daniel Barbosa',
@@ -8,15 +9,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Daniel Barbosa | Desenvolvedor full stack',
     description: 'Veja o portfolio de Daniel Barbosa, um desenvolvedor full stack especializado em desenvolvimento React.',
-    images: ['https://danielbarbosa.com.br/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofilepic.3da4e9d8.jpg&w=1200&q=75']
+    images: ['https://danielbarbosa.com.br/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofilepic.3da4e9d8.jpg&w=1200&q=75'],    
   }
 }
 
 export default function Index() {
   return (
-    <main className="gap-10 mx-[16px]">
+    <main className="flex  flex-col gap-10 mx-[16px]">
       <Home />
       <Experience />
+      <Projects/>
     </main>
   )
 }

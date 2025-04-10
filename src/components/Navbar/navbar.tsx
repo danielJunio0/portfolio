@@ -38,7 +38,7 @@ const NavBar = () => {
   ]
 
   return ( 
-    <div className="fixed top-[20px] flex-none h-auto left-[50%] z-[9] -translate-x-1/2">
+    <div className="fixed top-[20px] h-auto left-[50%] z-[9] -translate-x-1/2">
       <nav className="bg-[#272829] w-full max-w-full rounded-[12px] opacity-[1] items-center flex flex-row flex-nowrap h-[48px] justify-between px-[20px] relative">
         {items.map((item, index) => (
           <NavItem key={index} icon={item.icon} url={item.url} isActive={pathname == item.url} />

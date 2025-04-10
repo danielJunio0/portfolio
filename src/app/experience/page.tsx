@@ -2,11 +2,19 @@ export default function Experience() {
 
   return (
     <section>
-      <h1 className="text-[48px] font-bold">Transformando suas idéias em {" "}
+      <h1 className="text-[48px] font-bold leading-none text-center lg:text-start">Transformando suas idéias em {" "}
         <span className="text-[#8e81ff]">
           Realidade
         </span>
       </h1>
+      <div>
+        <p className="text-center">
+          Apaixonado por criar soluções intuitivas e performaticas que melhoram a experiência do usuário.
+
+          Especializado em transformar ideias em projetos reais
+        </p>
+
+      </div>
       <div className="flex flex-row gap-4 mt-4">
         <div >
           <p className="font-bold text-5xl"> +6</p>
@@ -20,7 +28,7 @@ export default function Experience() {
         </div>
         <div>
           <p className="font-bold text-5xl"> +3M</p>
-          <p className="uppercase">de usuários</p>
+          <p className="uppercase">usuários</p>
           <p className="uppercase">atingidos</p>
         </div>
       </div>
