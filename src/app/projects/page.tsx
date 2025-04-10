@@ -2,7 +2,6 @@ import ProjectItem, { IProjectItem } from "@/components/ProjectItem"
 import AssaiImg from "../../../public/assai_logo.svg";
 import FloresOnlineImg from "../../../public/floresonline_logo.svg";
 import EoBichoImg from "../../../public/eobicho_logo.svg";
-import EoBichobrancaImg from "../../../public/eobichobranca_logo.png";
 
 export default function Projects() {
   const projects: IProjectItem[] = [
