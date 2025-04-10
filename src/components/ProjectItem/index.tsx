@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 
-import ProfilePic from "../../../public/profilepic.jpg";
 export interface IProjectItem {
   id: number,
   name: string,
