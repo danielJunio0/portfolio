@@ -18,30 +18,35 @@ const NavBar = () => {
   const items: INavItem[] = [
     {
       url: "/",
-      icon: HomeImg
+      icon: HomeImg,
+      name:"Início"
     },
     {
       url: "/projects",
-      icon: PathImg
+      icon: PathImg,
+      name:"Projetos"
     },
     {
       url: "/tools",
-      icon: ToolImg
+      icon: ToolImg,
+      name:"Techs"
     }, {
       url: "/experience",
-      icon: BagImg
+      icon: BagImg,
+      name:"Experiência"
     },
     {
       url: "/contacts",
-      icon: LetterImg
+      icon: LetterImg,
+      name:"Contato"
     },
   ]
 
   return ( 
     <div className="fixed top-[20px] h-auto left-[50%] z-[9] -translate-x-1/2">
-      <nav className="bg-[#272829] w-full max-w-full rounded-[12px] opacity-[1] items-center flex flex-row flex-nowrap h-[48px] justify-between px-[20px] relative">
+      <nav className="bg-[#272829] w-full max-w-full rounded-[12px] opacity-[1] items-center flex flex-row flex-nowrap h-[64px] justify-between px-[20px] relative">
         {items.map((item, index) => (
-          <NavItem key={index} icon={item.icon} url={item.url} isActive={pathname == item.url} />
+          <NavItem key={index} icon={item.icon} url={item.url} isActive={pathname == item.url} name={item.name}/>
         ))}
       </nav>
     </div>
