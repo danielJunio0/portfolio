@@ -22,7 +22,7 @@ export default function RootLayout({
           <Background />
           <NavBar />
           <div className="items-center flex flex-row gap-2 h-min justify-center w-full">
-            <div className="items-start gap-[20px]  max-w-[1140px] flex flex-col lg:flex-row px-[30px]">
+            <div className="items-start gap-[20px]  max-w-[1140px] flex flex-col lg:flex-row px-[20px]">
               <ProfileContainer />
               <div>
                 {children}
