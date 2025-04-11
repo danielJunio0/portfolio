@@ -3,6 +3,7 @@ import Background from "../components/Background/background";
 import NavBar from "../components/Navbar/navbar";
 import ProfileContainer from "@/components/ProfileContainer";
 import { Outfit } from "next/font/google"
+import AosInit from "@/components/Aos";
 
 const outfit = Outfit({
   display: 'swap',
@@ -24,9 +25,10 @@ export default function RootLayout({
           <div className="items-center flex flex-row gap-2 h-min justify-center w-full">
             <div className="items-start gap-[20px]  max-w-[1140px] flex flex-col lg:flex-row px-[20px]">
               <ProfileContainer />
-              <div>
+              <div >
                 {children}
                 <p className="py-5 text-center">{`© ${new Date().getFullYear()} Daniel Barbosa - Analytics by Firebase :)`}</p>
+                <AosInit/>
               </div>
             </div>
           </div>

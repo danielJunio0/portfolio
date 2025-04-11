@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function Index() {
   return (
-    <main className="flex  flex-col gap-10">
+    <main data-aos="fade-down" className="flex  flex-col gap-10">
       <Home />
       <Experience />
       <Projects/>

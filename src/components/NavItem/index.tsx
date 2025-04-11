@@ -10,8 +10,8 @@ export interface INavItem {
 
 export default function NavItem({ ...props }: INavItem) {
   return (
-    <Link href={props.url} >
-      <li className={`h-8 w-8 hover:bg-[#5746e9] justify-center flex items-center cursor-pointer rounded-sm ml-4 ${props.isActive && 'bg-[#5746e9]'}`}>
+    <Link href={props.url} data-aos="zoom-in">
+      <li className={` h-8 w-8 hover:bg-[#5746e9] justify-center flex items-center cursor-pointer rounded-sm ml-4 ${props.isActive && 'bg-[#5746e9]'}`}>
         <Image width={20} alt="icon" src={props.icon} />
       </li>
     </Link>
