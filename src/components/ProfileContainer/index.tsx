@@ -12,10 +12,10 @@ const ProfileContainer = () => {
 
           <Image src={ProfilePic} objectFit="cover" alt="Profile Pic" className="w-full object-cover" />
         </div>
-        <div className="text-center">
+        <div className="text-center ">
           <p className="font-bold text-[28px] text-center gap-2">Daniel Barbosa</p>
-          <p className="font-[16px]">Desenvolvedor Full-Stack</p>
-          <p className="font-[16px]">Ribeirão Preto - SP/Brasil</p>
+          <p className="font-[16px] text-[#d9d9d9]">Desenvolvedor Full-Stack</p>
+          <p className="font-[16px] text-[#d9d9d9]">Ribeirão Preto - SP/Brasil</p>
         </div>
         <div className="gap-4 flex flex-row">
           <a target="_blank" href="https://www.linkedin.com/in/danielbarbosa0/" className="cursor-pointer p-[4px] hover:bg-[#5746e9] rounded-[6px]"><Image className="text-white fill-white" width={20} alt="icon" src={LinkedinImg} /></a>
