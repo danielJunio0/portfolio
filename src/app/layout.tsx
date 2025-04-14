@@ -28,7 +28,7 @@ export default function RootLayout({
               <div >
                 {children}
                 <p className="py-5 text-center">{`© ${new Date().getFullYear()} Daniel Barbosa - Analytics by Firebase :)`}</p>
-                <AosInit/>
+                <AosInit />
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Daniel Barbosa | Desenvolvedor full stack',
     description: 'Veja o portfolio de Daniel Barbosa, um desenvolvedor full stack especializado em desenvolvimento React.',
-    images: ['https://danielbarbosa.com.br/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofilepic.3da4e9d8.jpg&w=1200&q=75'],    
+    images: ['https://danielbarbosa.com.br/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofilepic.3da4e9d8.jpg&w=1200&q=75'],
   }
 }
 
