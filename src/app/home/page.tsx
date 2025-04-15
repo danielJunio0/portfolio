@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <section data-aos="fade-down">
-      <h1 className="text-[56px] font-bold leading-none text-center lg:text-start mb-10">Sobre Mim {" "}
+      <h1 className="text-[48px] font-bold leading-none text-center lg:text-start mb-10">Sobre Mim {" "}
 
       </h1>
       <div className="text-[#d9d9d9]">

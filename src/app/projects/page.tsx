@@ -31,7 +31,7 @@ export default function Projects() {
   ]
   return (
     <section data-aos="fade-down">
-      <h1 className="text-[56px] font-bold leading-none text-center lg:text-start mb-10">Projetos recentes e {" "}
+      <h1 className="text-[48px] font-bold leading-none text-center lg:text-start mb-10">Projetos recentes e {" "}
         <span className="text-[#8e81ff]">
           Conquistas
         </span>
