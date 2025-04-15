@@ -6,7 +6,7 @@ import GitHubImg from "../../../public/icons/github.svg"
 import MailImg from "../../../public/icons/mail.svg"
 const ProfileContainer = () => {
   return (
-    <div data-aos="zoom-in-right"  className=" w-full lg:w-fit lg:sticky lg:top-[20px] hidden lg:block">
+    <div data-aos="zoom-in-right"  className=" w-full lg:w-fit lg:sticky lg:top-[20px] lg:block">
       <div className="bg-[#272829] rounded-[16px] w-full flex flex-col px-[30px] py-[30px] items-center gap-[16px]">
         <div className="rounded-2xl h-[280px]  w-[240px] overflow-hidden">
 
